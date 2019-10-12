@@ -39,7 +39,7 @@
     package:
       name: default-jdk
       state: present
-  handler:
+  handlers:
     name: restart tomcat
     service:
       name: tomcat8
